@@ -145,7 +145,6 @@ try:
         st.download_button('Confirm Download JSON',  json_data, 'Scraped_Tweets.json', 'application/json')
         #json_data contains the contents of the json file 
         #'application/json' indicates the nature of file to be downloaded which is of mime(Multipurpose Internet Mail Extensions or MIME type) type of data and tells the browser that the file is a json file
-
-  except Exception as e:
+except Exception as e:
   st.write(e)    
 
