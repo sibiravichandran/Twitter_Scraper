@@ -2,13 +2,16 @@
 
 ## Twitter Scraping Project
 
-In this Portfolio you can find the code for the Twitter Scraping Project as Capstone_Project.py
-
-##Capstone_Project.py
+In this Portfolio you can find the code for the Twitter Scraping Project as ***Capstone_Project.py***
 
 :star: **Project Title**: Twitter Scraping 
 
-:star: **Skills take away From This Project** : Python scripting, Data Collection,MongoDB, Streamlit
+:star: **Skills take away From This Project** : 
+        :arrow_right: Python scripting
+        :arrow_right: Data Collection
+        :arrow_right: MongoDB
+        :arrow_right: Streamlit
+                                                
 
 :star: **Domain** : Social Media
 
