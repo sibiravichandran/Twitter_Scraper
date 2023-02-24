@@ -24,6 +24,7 @@ In this Portfolio you can find the code for the Twitter Scraping Project as ***C
   
 
 :star2:**Approach:**
+
 :arrow_right:  By using the “snscrape” Library, Scrape the twitter data from Twitter. 
   *Reference:https://medium.com/dataseries/how-to-scrape-millions-of-tweets-using-snscrape-195ee3594721*
   
