@@ -39,7 +39,8 @@ In this Portfolio you can find the code for the Twitter Scraping Project as ***C
         “Scraped Data”             : [{1000  Scraped data from past 100 days }]})*
         
 :arrow_right:  Created a GUI using streamlit that contains the feature to enter the keyword or hashtag to be searched, select the date range and limit the tweet count need to be scraped. 
-:arrow_right:  After scraping, the data needs to be displayed in the page and need a button to upload the data into Database and download the data into csv and json format.
+
+:arrow_right:  After scraping, the data is displayed on the page and button's are used to upload the data into the database and download the data into csv and json format.
 
 :star2:**Conclusion:**
 
