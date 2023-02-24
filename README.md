@@ -16,6 +16,8 @@ In this Portfolio you can find the code for the Twitter Scraping Project as ***C
 :star: **Domain** : Social Media
 
 :star2:**Intro:**
+
+
   Today, data is scattered everywhere in the world. 
   Especially in social media, there may be a big quantity of data on Facebook, Instagram, Youtube, Twitter, etc. 
   This consists of pictures and films on Youtube and Instagram as compared to Facebook and Twitter. 
@@ -40,6 +42,8 @@ In this Portfolio you can find the code for the Twitter Scraping Project as ***C
 :arrow_right:  After scraping, the data needs to be displayed in the page and need a button to upload the data into Database and download the data into csv and json format.
 
 :star2:**Conclusion:**
+
+
   This solution provides the user to scrape the twitter data in the database and allows the user to download the data with multiple data formats like csv and json.
 
 
