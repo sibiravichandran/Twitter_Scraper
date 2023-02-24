@@ -4,7 +4,7 @@
 
 In this Portfolio you can find the code for the Twitter Scraping Project as ***Capstone_Project.py***
 
-:star: **Project Title**: Twitter Scraping 
+:star: **Project Title**: Twitter Scraping http://i.imgur.com/tXSoThF.png
 
 :star: **Skills take away From This Project** : 
         :arrow_right: Python scripting
