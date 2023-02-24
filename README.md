@@ -1,14 +1,16 @@
 # Data_Science_Portfolio
 
-In this Portfolio you can find a Capstone_Project.py
+## Twitter Scraping Project
 
-Capstone_Project.py
+In this Portfolio you can find the code for the Twitter Scraping Project as Capstone_Project.py
 
-:star: Project Title: Twitter Scraping
+#####Capstone_Project.py
+
+:star: Project Title: Twitter Scraping 
 
 :star: Skills take away From This Project : Python scripting, Data Collection,MongoDB, Streamlit
 
-Domain : Social Media
+:star: Domain : Social Media
 
 Intro:
   Today, data is scattered everywhere in the world. 
