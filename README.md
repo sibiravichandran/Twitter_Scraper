@@ -31,6 +31,7 @@ In this Portfolio you can find the code for the Twitter Scraping Project as ***C
 :arrow_right: Create a dataframe with date, id, url, tweet content, user,reply count, retweet count,language, source, like count.
   
 :arrow_right:Store each collection of data into a document into Mongodb along with the hashtag or key word we used to scrape from twitter. 
+  
   *eg:({“Scraped Word”            : “Elon Musk”,
         “Scraped Date”             :15-02-2023,
         “Scraped Data”             : [{1000  Scraped data from past 100 days }]})*
