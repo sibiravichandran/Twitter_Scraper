@@ -98,7 +98,6 @@ st.markdown("**:blue[_Welcome to the Twitter Scraping Capstone Page_]** :speech_
 SearchTerm = st.text_input('**:red[Enter your keyword]**')
 sincedate = st.date_input('**:red[Since]**', min_value = pd.to_datetime('1990,01,01'), max_value = pd.to_datetime('2099,01,12'), value=pd.to_datetime('today') - pd.Timedelta(days=7) )
 untildate = st.date_input('**:red[Until]**', min_value=pd.to_datetime('1990,01,01'), max_value = pd.to_datetime('2099,31,12'), value=pd.to_datetime('today'))
-#maxTweets = st.number_input('**:blue[Tweets to be scraped]**', min_value=1, max_value=1000)
 maxTweets = st.slider('**:blue[Tweets to be scraped]**',min_value=1,max_value=1000)
 
 try:
@@ -146,6 +145,7 @@ try:
         st.download_button('Confirm Download JSON',  json_data, 'Scraped_Tweets.json', 'application/json')
         #json_data contains the contents of the json file 
         #'application/json' indicates the nature of file to be downloaded which is of mime(Multipurpose Internet Mail Extensions or MIME type) type of data and tells the browser that the file is a json file
-except Exception as e:
+
+  except Exception as e:
   st.write(e)    
 
