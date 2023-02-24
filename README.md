@@ -6,11 +6,11 @@ In this Portfolio you can find the code for the Twitter Scraping Project as Caps
 
 #####Capstone_Project.py
 
-:star: Project Title: Twitter Scraping 
+:star: **Project Title**: Twitter Scraping 
 
-:star: Skills take away From This Project : Python scripting, Data Collection,MongoDB, Streamlit
+:star: **Skills take away From This Project** : Python scripting, Data Collection,MongoDB, Streamlit
 
-:star: Domain : Social Media
+:star: **Domain** : Social Media
 
 Intro:
   Today, data is scattered everywhere in the world. 
