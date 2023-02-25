@@ -27,12 +27,12 @@ In this Portfolio you can find the code for the Twitter Scraping Project as ***C
 
 :star2:**Approach:**
 
-:arrow_right:  By using the “snscrape” Library, Scrape the twitter data from Twitter. 
+:arrow_right:  By using the “snscrape” Library, Scraped the twitter data from Twitter. 
   *Reference:https://medium.com/dataseries/how-to-scrape-millions-of-tweets-using-snscrape-195ee3594721*
   
-:arrow_right: Create a dataframe with date, id, url, tweet content, user,reply count, retweet count,language, source, like count.
+:arrow_right: Created a dataframe with date, id, url, tweet content, user,reply count, retweet count,language, source, like count.
   
-:arrow_right:Store each collection of data into a document into Mongodb along with the hashtag or key word we used to scrape from twitter. 
+:arrow_right:Stored each collection of data into a document into Mongodb along with the hashtag or key word we used to scrape from twitter. 
   
   *eg:({“Scraped Word”            : “Elon Musk”,
         “Scraped Date”             :15-02-2023,
