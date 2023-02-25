@@ -30,19 +30,6 @@ def scraped_tweets(SearchTerm, sincedate, untildate, maxTweets):
 
 # Uploading the data to mongodb database
 
-#Your local Streamlit app will read secrets from a file .streamlit/secrets.toml in your app's root directory.
-# Initialize connection.
-# Uses st.cache_resource to only run once.
-# @st.cache_resource is a decorator that tells Streamlit to cache the results of the init_connection() function. 
-# This means that if the function is called again with the same arguments, Streamlit will return the cached result instead of recomputing the function. 
-# This can save a lot of time if the function is expensive to compute.
-@st.cache_resource
-def init_connection():
-    return pymongo.MongoClient(**st.secrets["mongo"])
-#return pymongo.MongoClient(**st.secrets["mongo"]) returns a new MongoClient object, which is used to connect to a MongoDB database. 
-#The ** syntax is used to pass a dictionary of parameters to the MongoClient() constructor, and the st.secrets["mongo"] dictionary is likely used to store the connection string and other parameters needed to connect to the database.
-
-
 client = pymongo.MongoClient("mongodb://localhost:27017")
 
 # Use st.cache_data to only rerun when the query changes or after 10 min.
@@ -119,7 +106,7 @@ try:
   if uploading_to_mongoDb:
           st.write('Uploading data to MongoDB...')
           scraped_data1 = scraped_tweets(SearchTerm, sincedate, untildate, maxTweets-1)
-          init_connection()
+          #init_connection()
           upload_data_mongodb(scraped_data1)
           
           st.write('Data uploaded to MongoDB :white_check_mark:')
@@ -147,4 +134,3 @@ try:
         #'application/json' indicates the nature of file to be downloaded which is of mime(Multipurpose Internet Mail Extensions or MIME type) type of data and tells the browser that the file is a json file
 except Exception as e:
   st.write(e)    
-
